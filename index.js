@@ -31,8 +31,9 @@ const client = new Client({
     },*/
     ws: { 
       properties: { 
-        $browser: "Discord iOS"//can be "Discord Android" or "Discord iOS" 
-       }
+            browser: "Discord iOS",//can be: Discord Client | Discord Web | Discord Android | Discord iOS
+            os: "Windows"//Other: Windows | Android | iOS | TempleOS | Linux | Mac | OS | X
+        },
     },
 });
 
